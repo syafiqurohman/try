@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+
+
+html,
+body,
+#root,
+.content {
+  width: 100%;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.content {
+  overflow-y: scroll;
+  height: 88vh;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/* Handle or Hover */
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
